@@ -20,6 +20,8 @@ def user_login(request):
                     return HttpResponse("Authenticated successfully")
                 else:
                     return HttpResponse("Disabled account")
+            else:
+                return HttpResponse("Invalid login")
     else:
         form = LoginForm()
     return render(
