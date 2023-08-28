@@ -1,0 +1,10 @@
+name = "bookmarks"
+version = "0.1.0"
+description = "A social website built with Django"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/coderustle/django-social-website"
+keywords = ["Django", "Python"]
+
+[tool.black]
+line-length = 80
