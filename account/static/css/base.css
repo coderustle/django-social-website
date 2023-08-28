@@ -59,6 +59,7 @@ body {
     display: grid;
     gap: 1rem;
 }
+
 /*
 * ==================================================
 * Header style
@@ -69,6 +70,7 @@ body {
     background-color: cadetblue;
     color: white;
 }
+
 .header .container {
     display: flex;
     justify-content: left;
@@ -80,4 +82,18 @@ body {
 .header .logo {
     font-weight: 600;
     font-size: 2rem;
+}
+
+/*
+* ==================================================
+* Login page style
+* ==================================================
+*/
+.login-page {
+    padding: 1rem;
+}
+
+.login-page .container {
+    width: 1280px;
+    margin: 0 auto;
 }

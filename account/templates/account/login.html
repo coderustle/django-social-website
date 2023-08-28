@@ -4,11 +4,13 @@
 
 {% block content %}
   <div class="login-page">
-    <h1>Log-in</h1>
-    <p>Please, use the following form to log-in:</p>
-    <form method="post">
-      {{ form.as_p }}
-      {% csrf_token %}
-    </form>
+    <div class="container">
+      <h1>Log-in</h1>
+      <p>Please, use the following form to log-in:</p>
+      <form method="post">
+        {{ form.as_p }}
+        {% csrf_token %}
+      </form>
+    </div>
   </div>
 {% endblock content %}
