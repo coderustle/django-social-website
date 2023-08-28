@@ -2,7 +2,6 @@ services:
   db:
     image: postgres:14
     container_name: db
-    restart: always
     environment:
       - POSTGRES_USER=bookmarks
       - POSTGRES_PASSWORD=demo123
