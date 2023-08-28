@@ -57,7 +57,6 @@ body {
 */
 .main {
     display: grid;
-    padding: 1rem;
     gap: 1rem;
 }
 /*
@@ -65,3 +64,20 @@ body {
 * Header style
 * ==================================================
 */
+.header {
+    padding: 1rem;
+    background-color: cadetblue;
+    color: white;
+}
+.header .container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.header .logo {
+    font-weight: 600;
+    font-size: 2rem;
+}
