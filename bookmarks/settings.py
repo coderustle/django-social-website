@@ -133,3 +133,8 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 # https://docs.djangoproject.com/en/4.1/ref/settings/#fixture-dirs
 # -----------------------------------------------------------------------------
 FIXTURE_DIRS = [BASE_DIR / "fixtures"]
+
+# Login redirect url
+LOGIN_REDIRECT_URL = "dashboard"
+LOGIN_URL = "login"
+LOGOUT_URL = "logout"
