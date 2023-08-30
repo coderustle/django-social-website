@@ -76,6 +76,7 @@ body {
     grid-auto-rows: auto;
     gap: 1rem;
 }
+
 /*
 * ==================================================
 * Header style
@@ -102,9 +103,18 @@ body {
 
 .header .container div:first-child {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
 }
+
+@media only screen and (min-width: 1024px) {
+    .header .container div:first-child {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 .header .logo {
     font-weight: 600;
     font-size: 2rem;
@@ -112,10 +122,19 @@ body {
 
 .header .menu {
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     gap: 1rem;
-    justify-content: center;
-    align-items: center;
 }
+
+@media only screen and (min-width: 1024px) {
+    .header .menu {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 .header .menu {
     list-style: none;
 }
@@ -185,6 +204,7 @@ body {
     max-width: 200px;
     margin-top: 1rem;
 }
+
 /*
 * ==================================================
 * Logout page style
@@ -207,6 +227,7 @@ body {
     padding-bottom: 0.5rem;
     border-bottom: 1px solid black;
 }
+
 /*
 * ==================================================
 * Dashboard page style
