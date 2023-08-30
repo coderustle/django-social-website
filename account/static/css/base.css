@@ -76,7 +76,6 @@ body {
     grid-auto-rows: auto;
     gap: 1rem;
 }
-
 /*
 * ==================================================
 * Header style
@@ -186,3 +185,48 @@ body {
     max-width: 200px;
     margin-top: 1rem;
 }
+/*
+* ==================================================
+* Logout page style
+* ==================================================
+*/
+.logout-page .container {
+    padding: 1rem;
+    display: grid;
+    gap: 1rem;
+}
+
+@media only screen and (min-width: 1280px) {
+    .logout-page .container {
+        width: 1280px;
+        margin: 0 auto;
+    }
+}
+
+.logout-page h1 {
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid black;
+}
+/*
+* ==================================================
+* Dashboard page style
+* ==================================================
+*/
+.dashboard-page .container {
+    padding: 1rem;
+    display: grid;
+    gap: 1rem;
+}
+
+@media only screen and (min-width: 1280px) {
+    .dashboard-page .container {
+        width: 1280px;
+        margin: 0 auto;
+    }
+}
+
+.dashboard-page h1 {
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid black;
+}
+
