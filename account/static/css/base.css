@@ -90,8 +90,8 @@ body {
 
 .header .container {
     display: flex;
-    justify-content: left;
     align-items: center;
+    justify-content: space-between;
 }
 
 @media only screen and (min-width: 1280px) {
@@ -101,9 +101,41 @@ body {
     }
 }
 
+.header .container div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .header .logo {
     font-weight: 600;
     font-size: 2rem;
+}
+
+.header .menu {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.header .menu {
+    list-style: none;
+}
+
+
+.header .menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.header .user {
+    display: flex;
+    gap: 1rem;
+}
+
+.header .user a {
+    color: white;
+    text-decoration: none;
+
 }
 
 /*
